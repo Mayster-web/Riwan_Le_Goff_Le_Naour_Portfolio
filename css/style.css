@@ -1,0 +1,102 @@
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 50px;
+}
+
+/* affiche un cursseur */
+.cursor {
+    cursor: pointer;
+}
+
+/* ancrage */
+.overflow {
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+}
+
+/* aligner a début */
+.scroll-snap {
+    scroll-snap-align: start;
+}
+
+/* retour a la ligne → non */
+.no-wrap {
+    white-space: nowrap
+}
+
+/* Image de fond */
+.background-image-dessins {
+    background-image: linear-gradient(rgba(238, 240, 255, 0.95), rgba(238, 240, 255, 0.95)), url(../img/fond.png);
+    background-size: 20%;
+    background-attachment: fixed;
+    background-position: -40px -20px;
+}
+
+/* Bordure arondie de 50px */
+.border-radius-50 {
+    border-radius: 50px;
+}
+
+/* Bordure bleu*/
+.border-blue {
+    border: solid;
+    border-color: #4258FF;
+    border-width: 0.1rem;
+}
+
+/* Bordure bleu léger */
+.border-blue-light {
+    border: solid;
+    border-color: #b8c0ff;
+    border-width: 0.1rem;
+}
+
+/* Fond transparent */
+.opacity-background {
+    background-color: rgba(255, 255, 255, 0.95);
+}
+
+/* Ombre */
+.drop-shadow {
+    filter: drop-shadow(8px 8px 8px #bbbbbb);
+}
+
+/* Text en gras */
+.hax-text-extrabold {
+    font-weight: 800;
+}
+
+/* hr couleure */
+.hr_color {
+    background-color: #b8c0ff;
+}
+
+/* Rotation de 5 degrés */
+.rotate-item {
+    transform: rotate(5deg);
+}
+
+/* Rotation de 5 degrés sans inverse */
+.rotate-item-reverse {
+    transform: rotate(-1.2deg);
+}
+
+/* Image de fond du site web pokémon */
+.image-pokemon-background {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(184, 192, 255, 0.7)), url(../img/Site_Pokemon/Background_image_site_pokemon.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+/* Image de fond de l'infographie */
+.image-infographie-background {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(184, 192, 255, 0.7)), url(../img/Infographie/Background_image_infographie.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+/* Marge de 6rem */
+.mx-6-rem {
+    margin-right: 6rem;
+    margin-left: 6rem;
+}
